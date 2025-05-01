@@ -11,7 +11,7 @@ type Parser interface {
 }
 
 type Filler interface {
-	Fill(field Form.Field) any
+	Fill(field form.Field) any
 }
 
 type Submitter interface {
